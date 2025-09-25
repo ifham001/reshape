@@ -25,11 +25,11 @@ const Header: FC = () => {
         </div>
 
         <nav className="hidden md:flex font-sans items-center gap-6 text-sm text-white">
-          <Link href="#" className="hover:text-black transition">Home</Link>
-          <Link href="#" className="hover:text-black transition">Tech</Link>
-          <Link href="#" className="hover:text-black transition">Marketplace</Link>
-          <Link href="#" className="hover:text-black transition">About Us</Link>
-          <Link href="#" className="hover:text-black transition">Pricing</Link>
+         
+          <Link href="/" className="hover:border-b-[#ff5e1a] hover:border-b-3">Home</Link>
+          <Link href="/discover" className="hover:border-b-[#ff5e1a] hover:border-b-3">Discover</Link>
+          <Link href="about-us" className="hover:border-b-[#ff5e1a] hover:border-b-3">About Us</Link>
+          <Link href="/pricing" className="hover:border-b-[#ff5e1a] hover:border-b-3">Pricing</Link>
         </nav>
 
         <div className="hidden md:flex items-center gap-3">
